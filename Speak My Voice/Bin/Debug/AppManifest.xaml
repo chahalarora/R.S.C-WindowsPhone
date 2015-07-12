@@ -1,0 +1,16 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="SampleVoiceApp" EntryPointType="SampleVoiceApp.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="SampleVoiceApp" Source="SampleVoiceApp.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls" Source="Microsoft.Phone.Controls.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Maps" Source="Microsoft.Phone.Controls.Maps.dll" />
+    <AssemblyPart x:Name="nmsp_audioplayback" Source="nmsp_audioplayback.dll" />
+    <AssemblyPart x:Name="nmsp_audiorecord" Source="nmsp_audiorecord.dll" />
+    <AssemblyPart x:Name="nmsp_core" Source="nmsp_core.dll" />
+    <AssemblyPart x:Name="nmsp_dictationresult" Source="nmsp_dictationresult.dll" />
+    <AssemblyPart x:Name="nmsp_oem" Source="nmsp_oem.dll" />
+    <AssemblyPart x:Name="nmsp_resource_common" Source="nmsp_resource_common.dll" />
+    <AssemblyPart x:Name="nmsp_resource_nmas" Source="nmsp_resource_nmas.dll" />
+    <AssemblyPart x:Name="nmsp_vocoder_speex" Source="nmsp_vocoder_speex.dll" />
+    <AssemblyPart x:Name="SpeechKit" Source="SpeechKit.dll" />
+  </Deployment.Parts>
+</Deployment>

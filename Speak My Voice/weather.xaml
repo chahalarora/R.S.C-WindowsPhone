@@ -1,0 +1,58 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="SampleVoiceApp.weather"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="weather" Background="White" Foreground="Black" FontSize="24">
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="sentences 1">
+                <Grid>
+                    <StackPanel Margin="0,0,5,0" Width="415">
+                        <TextBlock Height="50" HorizontalAlignment="Left" Name="textBlock1" Text="What's the weather like" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="362" FontSize="24" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock2" Text="What a nice day" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="424" FontSize="24" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock3" Text="What a beautiful day" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="223" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock4" Text="What a terrible day" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="230" />
+                        <TextBlock Height="50" HorizontalAlignment="Left" Name="textBlock5" Text="What a miserable weather" VerticalAlignment="Top" Tap="textBlock1_Tap" />
+                        <TextBlock Height="50" HorizontalAlignment="Left" Name="textBlock6" Text="It's starting to rain" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="290" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock7" Text="It's stopped raining" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="206" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock8" Text="The sun is coming out" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="330" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock9" Text="As far as I know" VerticalAlignment="Top" Tap="textBlock1_Tap" FontSize="24" />
+                    </StackPanel>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="sentences 2">
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock11" Text="The sky's overcast" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="252" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock12" Text="It's clearing up " VerticalAlignment="Top" Tap="textBlock1_Tap" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock13" Text="Th sun's coming out" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="226" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock14" Text="There's a strong wind" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="274" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock15" Text="We had a heavy rain this morning" VerticalAlignment="Top" Tap="textBlock1_Tap" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock16" Text="What's the temperature " VerticalAlignment="Top" Tap="textBlock1_Tap" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock17" Text="What's the forecast" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="247" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock18" Text="We are expecting a thunderstorm" VerticalAlignment="Top" Tap="textBlock1_Tap" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock19" Text="It's supposed to beclear up later" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="359" />
+                    </StackPanel>
+                </Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panorama-based applications should not show an ApplicationBar-->
+
+</phone:PhoneApplicationPage>

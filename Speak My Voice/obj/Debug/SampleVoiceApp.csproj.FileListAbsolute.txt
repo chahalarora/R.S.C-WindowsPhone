@@ -1,0 +1,281 @@
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\ResolveAssemblyReference.cache
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\App.g.i.cs
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\MainPage.g.i.cs
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\SampleVoiceApp.g.resources
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\ApplicationIcon.png
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\Background.png
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\SampleVoiceApp.xml
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\SampleVoiceApp.dll
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\SampleVoiceApp.pdb
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\AppManifest.xaml
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\SampleVoiceApp.xap
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\Microsoft.Phone.Controls.dll
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_audioplayback.dll
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_audiorecord.dll
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_core.dll
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_dictationresult.dll
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_oem.dll
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_resource_common.dll
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_resource_nmas.dll
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_vocoder_speex.dll
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\SpeechKit.dll
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\Microsoft.Phone.Controls.xml
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\SampleVoiceApp.dll
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\SampleVoiceApp.pdb
+F:\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\XapCacheFile.xml
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\ApplicationIcon.png
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\Background.png
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\SampleVoiceApp.dll
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\SampleVoiceApp.pdb
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\AppManifest.xaml
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\SampleVoiceApp.xap
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\Microsoft.Phone.Controls.dll
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_audioplayback.dll
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_audiorecord.dll
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_core.dll
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_dictationresult.dll
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_oem.dll
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_resource_common.dll
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_resource_nmas.dll
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_vocoder_speex.dll
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\SpeechKit.dll
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\Microsoft.Phone.Controls.xml
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\ResolveAssemblyReference.cache
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\App.g.i.cs
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\MainPage.g.i.cs
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\SampleVoiceApp.g.resources
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\SampleVoiceApp.dll
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\SampleVoiceApp.pdb
+F:\summer training 2012\windows phone 7\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\XapCacheFile.xml
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\ApplicationIcon.png
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\Background.png
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\SampleVoiceApp.dll
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\SampleVoiceApp.pdb
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\AppManifest.xaml
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\SampleVoiceApp.xap
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_audioplayback.dll
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_audiorecord.dll
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_core.dll
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_dictationresult.dll
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_oem.dll
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_resource_common.dll
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_resource_nmas.dll
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\nmsp_vocoder_speex.dll
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\SpeechKit.dll
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\App.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\MainPage1.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\SampleVoiceApp.g.resources
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\SampleVoiceApp.dll
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\SampleVoiceApp.pdb
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\XapCacheFile.xml
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\MainPage.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\menu.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\textMacros.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\greetings.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\emergencycalling.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\translator.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\algeria.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\argentina.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\australia.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\austria.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\bahrain.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\barbados.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\bolivia.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\brazil.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\canada.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\chile.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\china.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\colombia.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\costarica.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\denmark.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\dominican.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\ecuador.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\egypt.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\fiji.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\france.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\ghana.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\greenland.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\guyana.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\haiti.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\hongkong.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\india.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\indonesia.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\ireland.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\italy.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\jamaica.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\japan.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\malaysia.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\mali.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\mauritius.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\mexico.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\morocco.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\nepal.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\netherland.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\pakistan.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\panama.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\paraguay.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\peru.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\portugal.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\russia.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\saint.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\sierra leonne.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\southafrica.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\spain.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\sudan.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\suriname.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\switzerland.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\thailand.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\trinidad.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\tunisia.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\UAE.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\UK.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\ukrain.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\uruguay.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\USA.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\venezuela.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\venuate.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\vietnam.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\zimbabwe.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\newzealand.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\solomon.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\uganda.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\askingcontact.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\dating.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\day.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\departure.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\emergency.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\encouragement.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\guests.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\home.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\relationship.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\responses.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\weather.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\picturetalking.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\eat n drink.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\entertainment.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\hotel.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\shoping.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\travel.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\obj\Debug\work.g.i.cs
+C:\Users\INDIA\Desktop\SpeechKit-WP7-1.4.0\SampleVoiceApp\Bin\Debug\SampleVoiceApp.xml
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\ApplicationIcon.png
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\Background.png
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\SampleVoiceApp.dll
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\SampleVoiceApp.pdb
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\AppManifest.xaml
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\SampleVoiceApp.xap
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\nmsp_audioplayback.dll
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\nmsp_audiorecord.dll
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\nmsp_core.dll
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\nmsp_dictationresult.dll
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\nmsp_oem.dll
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\nmsp_resource_common.dll
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\nmsp_resource_nmas.dll
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\nmsp_vocoder_speex.dll
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\SpeechKit.dll
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\App.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\algeria.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\argentina.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\askingcontact.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\australia.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\austria.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\bahrain.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\barbados.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\bolivia.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\brazil.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\canada.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\chile.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\china.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\colombia.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\costarica.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\dating.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\day.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\denmark.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\departure.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\dominican.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\eat n drink.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\ecuador.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\egypt.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\emergency.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\emergencycalling.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\encouragement.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\entertainment.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\fiji.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\france.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\ghana.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\greenland.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\greetings.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\guests.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\guyana.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\haiti.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\home.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\hongkong.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\hotel.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\india.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\indonesia.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\ireland.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\italy.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\jamaica.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\japan.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\MainPage.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\MainPage1.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\malaysia.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\mali.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\mauritius.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\menu.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\mexico.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\morocco.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\nepal.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\netherland.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\newzealand.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\pakistan.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\panama.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\paraguay.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\peru.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\picturetalking.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\portugal.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\relationship.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\responses.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\russia.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\saint.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\shoping.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\sierra leonne.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\solomon.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\southafrica.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\spain.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\sudan.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\suriname.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\switzerland.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\textMacros.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\thailand.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\translator.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\travel.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\trinidad.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\tunisia.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\UAE.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\uganda.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\UK.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\ukrain.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\uruguay.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\USA.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\venezuela.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\venuate.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\vietnam.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\weather.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\work.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\zimbabwe.g.i.cs
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\SampleVoiceApp.g.resources
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\SampleVoiceApp.dll
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\SampleVoiceApp.pdb
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\obj\Debug\XapCacheFile.xml
+C:\Users\INDIA\Desktop\SpeakMyVoice\SampleVoiceApp\Bin\Debug\SampleVoiceApp.xml

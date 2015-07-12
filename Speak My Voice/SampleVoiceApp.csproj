@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{98E4C45B-FEAE-484F-A8A8-5DEB2ADD6D6E}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SampleVoiceApp</RootNamespace>
+    <AssemblyName>SampleVoiceApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>SampleVoiceApp.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>SampleVoiceApp.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Bin\Debug\SampleVoiceApp.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Controls, Version=7.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone.Controls.Maps, Version=7.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e" />
+    <Reference Include="Microsoft.Phone.Interop" />
+    <Reference Include="Microsoft.Xna.Framework" />
+    <Reference Include="nmsp_audioplayback">
+      <HintPath>lib\nmsp_audioplayback.dll</HintPath>
+    </Reference>
+    <Reference Include="nmsp_audiorecord">
+      <HintPath>lib\nmsp_audiorecord.dll</HintPath>
+    </Reference>
+    <Reference Include="nmsp_core">
+      <HintPath>lib\nmsp_core.dll</HintPath>
+    </Reference>
+    <Reference Include="nmsp_dictationresult">
+      <HintPath>lib\nmsp_dictationresult.dll</HintPath>
+    </Reference>
+    <Reference Include="nmsp_oem">
+      <HintPath>lib\nmsp_oem.dll</HintPath>
+    </Reference>
+    <Reference Include="nmsp_resource_common">
+      <HintPath>lib\nmsp_resource_common.dll</HintPath>
+    </Reference>
+    <Reference Include="nmsp_resource_nmas">
+      <HintPath>lib\nmsp_resource_nmas.dll</HintPath>
+    </Reference>
+    <Reference Include="nmsp_vocoder_speex">
+      <HintPath>lib\nmsp_vocoder_speex.dll</HintPath>
+    </Reference>
+    <Reference Include="SpeechKit">
+      <HintPath>lib\SpeechKit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Device" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="algeria.xaml.cs">
+      <DependentUpon>algeria.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AppInfo.cs" />
+    <Compile Include="argentina.xaml.cs">
+      <DependentUpon>argentina.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="askingcontact.xaml.cs">
+      <DependentUpon>askingcontact.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="australia.xaml.cs">
+      <DependentUpon>australia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="austria.xaml.cs">
+      <DependentUpon>austria.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="bahrain.xaml.cs">
+      <DependentUpon>bahrain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="barbados.xaml.cs">
+      <DependentUpon>barbados.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="bolivia.xaml.cs">
+      <DependentUpon>bolivia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="brazil.xaml.cs">
+      <DependentUpon>brazil.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="canada.xaml.cs">
+      <DependentUpon>canada.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="chile.xaml.cs">
+      <DependentUpon>chile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="china.xaml.cs">
+      <DependentUpon>china.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="colombia.xaml.cs">
+      <DependentUpon>colombia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="costarica.xaml.cs">
+      <DependentUpon>costarica.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="dating.xaml.cs">
+      <DependentUpon>dating.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="day.xaml.cs">
+      <DependentUpon>day.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="denmark.xaml.cs">
+      <DependentUpon>denmark.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="departure.xaml.cs">
+      <DependentUpon>departure.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="dominican.xaml.cs">
+      <DependentUpon>dominican.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="eat n drink.xaml.cs">
+      <DependentUpon>eat n drink.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ecuador.xaml.cs">
+      <DependentUpon>ecuador.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="egypt.xaml.cs">
+      <DependentUpon>egypt.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="emergency.xaml.cs">
+      <DependentUpon>emergency.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="emergencycalling.xaml.cs">
+      <DependentUpon>emergencycalling.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="encouragement.xaml.cs">
+      <DependentUpon>encouragement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="entertainment.xaml.cs">
+      <DependentUpon>entertainment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="fiji.xaml.cs">
+      <DependentUpon>fiji.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="france.xaml.cs">
+      <DependentUpon>france.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ghana.xaml.cs">
+      <DependentUpon>ghana.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="greenland.xaml.cs">
+      <DependentUpon>greenland.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="greetings.xaml.cs">
+      <DependentUpon>greetings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="guests.xaml.cs">
+      <DependentUpon>guests.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="guyana.xaml.cs">
+      <DependentUpon>guyana.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="haiti.xaml.cs">
+      <DependentUpon>haiti.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="home.xaml.cs">
+      <DependentUpon>home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="hongkong.xaml.cs">
+      <DependentUpon>hongkong.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="hotel.xaml.cs">
+      <DependentUpon>hotel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="india.xaml.cs">
+      <DependentUpon>india.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="indonesia.xaml.cs">
+      <DependentUpon>indonesia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ireland.xaml.cs">
+      <DependentUpon>ireland.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="italy.xaml.cs">
+      <DependentUpon>italy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="jamaica.xaml.cs">
+      <DependentUpon>jamaica.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="japan.xaml.cs">
+      <DependentUpon>japan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage1.xaml.cs">
+      <DependentUpon>MainPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="malaysia.xaml.cs">
+      <DependentUpon>malaysia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="mali.xaml.cs">
+      <DependentUpon>mali.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="mauritius.xaml.cs">
+      <DependentUpon>mauritius.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="menu.xaml.cs">
+      <DependentUpon>menu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="mexico.xaml.cs">
+      <DependentUpon>mexico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="morocco.xaml.cs">
+      <DependentUpon>morocco.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="nepal.xaml.cs">
+      <DependentUpon>nepal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="netherland.xaml.cs">
+      <DependentUpon>netherland.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="newzealand.xaml.cs">
+      <DependentUpon>newzealand.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pakistan.xaml.cs">
+      <DependentUpon>pakistan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="panama.xaml.cs">
+      <DependentUpon>panama.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="paraguay.xaml.cs">
+      <DependentUpon>paraguay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="peru.xaml.cs">
+      <DependentUpon>peru.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="picturetalking.xaml.cs">
+      <DependentUpon>picturetalking.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="portugal.xaml.cs">
+      <DependentUpon>portugal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="relationship.xaml.cs">
+      <DependentUpon>relationship.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="responses.xaml.cs">
+      <DependentUpon>responses.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="russia.xaml.cs">
+      <DependentUpon>russia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="saint.xaml.cs">
+      <DependentUpon>saint.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="shoping.xaml.cs">
+      <DependentUpon>shoping.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="sierra leonne.xaml.cs">
+      <DependentUpon>sierra leonne.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="solomon.xaml.cs">
+      <DependentUpon>solomon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="southafrica.xaml.cs">
+      <DependentUpon>southafrica.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="spain.xaml.cs">
+      <DependentUpon>spain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="sudan.xaml.cs">
+      <DependentUpon>sudan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="suriname.xaml.cs">
+      <DependentUpon>suriname.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="switzerland.xaml.cs">
+      <DependentUpon>switzerland.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="textMacros.xaml.cs">
+      <DependentUpon>textMacros.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="thailand.xaml.cs">
+      <DependentUpon>thailand.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="translator.xaml.cs">
+      <DependentUpon>translator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="travel.xaml.cs">
+      <DependentUpon>travel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="trinidad.xaml.cs">
+      <DependentUpon>trinidad.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="tunisia.xaml.cs">
+      <DependentUpon>tunisia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UAE.xaml.cs">
+      <DependentUpon>UAE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="uganda.xaml.cs">
+      <DependentUpon>uganda.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UK.xaml.cs">
+      <DependentUpon>UK.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ukrain.xaml.cs">
+      <DependentUpon>ukrain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="uruguay.xaml.cs">
+      <DependentUpon>uruguay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="USA.xaml.cs">
+      <DependentUpon>USA.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="venezuela.xaml.cs">
+      <DependentUpon>venezuela.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="venuate.xaml.cs">
+      <DependentUpon>venuate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="vietnam.xaml.cs">
+      <DependentUpon>vietnam.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="weather.xaml.cs">
+      <DependentUpon>weather.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="work.xaml.cs">
+      <DependentUpon>work.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="zimbabwe.xaml.cs">
+      <DependentUpon>zimbabwe.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="algeria.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="argentina.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="askingcontact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="australia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="austria.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="bahrain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="barbados.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="bolivia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="brazil.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="canada.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="chile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="china.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="colombia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="costarica.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="dating.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="day.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="denmark.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="departure.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="dominican.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="eat n drink.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ecuador.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="egypt.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="emergency.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="emergencycalling.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="encouragement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="entertainment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="fiji.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="france.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ghana.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="greenland.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="greetings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="guests.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="guyana.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="haiti.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="hongkong.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="hotel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="india.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="indonesia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ireland.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="italy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="jamaica.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="japan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="malaysia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="mali.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="mauritius.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="mexico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="morocco.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="nepal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="netherland.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="newzealand.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pakistan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="panama.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="paraguay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="peru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="picturetalking.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="portugal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="relationship.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="responses.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="russia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="saint.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="shoping.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="sierra leonne.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="solomon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="southafrica.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="spain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="sudan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="suriname.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="switzerland.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="textMacros.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="thailand.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="translator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="travel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="trinidad.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="tunisia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UAE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="uganda.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UK.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ukrain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="uruguay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="USA.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="venezuela.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="venuate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="vietnam.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="weather.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="work.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="zimbabwe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="beep.wav" />
+    <Resource Include="Images\images.jpg" />
+    <Resource Include="Images\images 2 - Copy.jpg" />
+    <Resource Include="Images\images 3 - Copy.jpg" />
+    <Resource Include="Images\images 4 - Copy.jpg" />
+    <Resource Include="Images\images 10.jpg" />
+    <Resource Include="Images\images 11 - Copy.jpg" />
+    <Resource Include="Images\images 12 - Copy.jpg" />
+    <Resource Include="Images\images 13.jpg" />
+    <Resource Include="img56.jpg" />
+    <Resource Include="img57.jpg" />
+    <Resource Include="Images\algeria.jpg" />
+    <Resource Include="Images\argentina.jpg" />
+    <Resource Include="Images\australia.jpg" />
+    <Resource Include="Images\bahrain.jpg" />
+    <Resource Include="Images\barbados.jpg" />
+    <Resource Include="Images\brazil.jpg" />
+    <Resource Include="Images\canada.jpg" />
+    <Resource Include="Images\chile.jpg" />
+    <Resource Include="Images\china.jpg" />
+    <Resource Include="Images\costa rica.jpg" />
+    <Resource Include="Images\denmark.jpg" />
+    <Resource Include="Images\domician republic.jpg" />
+    <Resource Include="Images\egypt.jpg" />
+    <Resource Include="Images\fiji.jpg" />
+    <Resource Include="Images\ghana.jpg" />
+    <Resource Include="Images\greenlang.jpg" />
+    <Resource Include="Images\guyana.jpg" />
+    <Resource Include="Images\haiti.jpg" />
+    <Resource Include="Images\hong kong.jpg" />
+    <Resource Include="Images\img60.jpg" />
+    <Resource Include="Images\indonesia.jpg" />
+    <Resource Include="Images\ireland.jpg" />
+    <Resource Include="Images\italy.jpg" />
+    <Resource Include="Images\jamaica.jpg" />
+    <Resource Include="Images\japan.jpg" />
+    <Resource Include="Images\malaysia.jpg" />
+    <Resource Include="Images\mali.jpg" />
+    <Resource Include="Images\mauritius.jpg" />
+    <Resource Include="Images\mexico.jpg" />
+    <Resource Include="Images\morocco.jpg" />
+    <Resource Include="Images\nepal.jpg" />
+    <Resource Include="Images\netherland.jpg" />
+    <Resource Include="Images\newzealand.jpg" />
+    <Resource Include="Images\pakistan.jpg" />
+    <Resource Include="Images\panama.jpg" />
+    <Resource Include="Images\peru.jpg" />
+    <Resource Include="Images\portugal.jpg" />
+    <Resource Include="Images\russia.jpg" />
+    <Resource Include="Images\saint pierre.jpg" />
+    <Resource Include="Images\sierra leonne.jpg" />
+    <Resource Include="Images\solomon islands.jpg" />
+    <Resource Include="Images\southafrica.jpg" />
+    <Resource Include="Images\spain.jpg" />
+    <Resource Include="Images\sudan.jpg" />
+    <Resource Include="Images\suriname.jpg" />
+    <Resource Include="Images\switzerland.jpg" />
+    <Resource Include="Images\thailand.jpg" />
+    <Resource Include="Images\trinad tobacco.jpg" />
+    <Resource Include="Images\tunisia.jpg" />
+    <Resource Include="Images\uae.jpg" />
+    <Resource Include="Images\uganda.jpg" />
+    <Resource Include="Images\ukrain.jpg" />
+    <Resource Include="Images\vanuatu.jpg" />
+    <Resource Include="Images\venezuala.jpg" />
+    <Resource Include="Images\vietnam.jpg" />
+    <Resource Include="Images\zimbabwe.jpg" />
+    <Resource Include="Images\france.jpg" />
+    <Resource Include="Images\bolivia.jpg" />
+    <Resource Include="Images\colombia.jpg" />
+    <Resource Include="Images\ecaudor.jpg" />
+    <Resource Include="Images\paraguay.jpg" />
+    <Resource Include="Images\uraguay.jpg" />
+    <Resource Include="Images\1.jpg" />
+    <Resource Include="Images\10.jpg" />
+    <Resource Include="Images\11.jpg" />
+    <Resource Include="Images\12.jpg" />
+    <Resource Include="Images\2.jpg" />
+    <Resource Include="Images\3.jpg" />
+    <Resource Include="Images\4.jpg" />
+    <Resource Include="Images\5.jpg" />
+    <Resource Include="Images\6.jpg" />
+    <Resource Include="Images\7.jpg" />
+    <Resource Include="Images\8.jpg" />
+    <Resource Include="Images\9.jpg" />
+    <Resource Include="Images\img101.jpg" />
+    <Resource Include="Images\img103.png" />
+    <Resource Include="img102.png" />
+    <Resource Include="say5.jpg" />
+    <Resource Include="logo.png" />
+    <Content Include="SplashScreenImage.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

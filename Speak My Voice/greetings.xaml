@@ -1,0 +1,70 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="SampleVoiceApp.greetings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False" DataContext="{Binding}">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White">
+        <controls:Panorama Title="greetings" Foreground="Black" Background="{x:Null}">
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="sentences 1" Foreground="Black" Background="White" FontSize="24">
+               
+ <Grid Margin="20,0,0,0">
+
+                    <StackPanel Height="500" HorizontalAlignment="Left" Margin="-17,-2,0,0" Name="stackPanel1" VerticalAlignment="Top" Width="420" >
+                        <TextBlock Name="textBlock1" FontSize="32" Text="Hi" Tap="textBlock1_Tap"  Width="387" Height="43" />
+                        <TextBlock Name="textBlock2" FontSize="32" Text="Hello" Tap="textBlock1_Tap"  Height="43" Width="383" />
+                        <TextBlock Name="textBlock3" Text="Good morning" FontSize="32" Tap="textBlock1_Tap"  Height="43" Width="389" />
+                        <TextBlock Name="textBlock4" FontSize="32" Text="Good afternoon" Tap="textBlock1_Tap"  Height="43" Width="379" />
+
+                        <TextBlock Name="textBlock10" FontSize="32" Text="Good evening" Tap="textBlock1_Tap"  Width="380" Height="43" />
+
+                        <TextBlock Name="textBlock5" FontSize="32" Text="Good night" Tap="textBlock1_Tap"  Width="384" Height="43" />
+                        <TextBlock Name="textBlock6" FontSize="32" Text="How are you" Tap="textBlock1_Tap"  Width="384" Height="43" />
+                        <TextBlock Name="textBlock7" FontSize="32" Text="Fine.What about you " Tap="textBlock1_Tap"  Width="387" Height="43" />
+                        <TextBlock Name="textBlock8" FontSize="32" Text="Thanks" Tap="textBlock1_Tap"  Width="390" Height="43" />
+
+                        <TextBlock Name="textBlock9" FontSize="32" Text="okay" Tap="textBlock1_Tap"  Width="384" Height="43" />
+                      
+                       
+                    </StackPanel>
+                </Grid>
+                 
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="sentences 2" FontSize="24">
+             
+                    <Grid Margin="20,0,0,0">
+                    <StackPanel>
+                        <TextBlock Name="textBlock18" FontSize="32" Text="What'up" Tap="textBlock1_Tap"  Width="394" Height="60" />
+                        <TextBlock Name="textBlock11" FontSize="32" Text="Hi.What's new" Tap="textBlock1_Tap"  Width="400" Height="60" />
+                        <TextBlock Name="textBlock12" FontSize="32" Text="Hi .What's up" Tap="textBlock1_Tap"  Width="396" Height="60" />
+                        <TextBlock Name="textBlock13" FontSize="32" Text="Long time no see" Tap="textBlock1_Tap"  Width="399" Height="60" />
+                        <TextBlock Name="textBlock14" FontSize="32" Text="Have you been keeping busy" Tap="textBlock1_Tap"  Width="414" Height="60" />
+
+                        <TextBlock Name="textBlock16" FontSize="28" Text="Do you mind me asking something?" Tap="textBlock1_Tap"  Width="454" Height="60" />
+                        <TextBlock Name="textBlock17" FontSize="32" Text="Ok here's the thing" Tap="textBlock1_Tap"  Width="403" Height="60" />
+                        
+                    </StackPanel>
+                </Grid>
+               
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panorama-based applications should not show an ApplicationBar-->
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,57 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="SampleVoiceApp.picturetalking"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="picture talking" Background="White" Foreground="Black">
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="pictures 1">
+                <Grid>
+                    <Image Margin="38,40,0,0" Source="images/2.jpg" Stretch="Fill" HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="144"  />
+                    <TextBlock  Height="159"  HorizontalAlignment="Right" Margin="0,7,227,0" TextWrapping="Wrap" Text="                                                                                                                                      hello" VerticalAlignment="Top" Width="185" Tap="TextBlock_Tap" Foreground="White" Visibility="Visible" />
+                    <Image HorizontalAlignment="Right" Height="121" Margin="0,40,29,0" Source="images/3.jpg" Stretch="Fill" VerticalAlignment="Top" Width="139"/>
+                    <Image Margin="0,218,38,180" Source="images/6.jpg" Stretch="Fill" HorizontalAlignment="Right" Width="130" Height="100" />
+                    <Image Height="98" Margin="157,0,140,53" Source="images/7.jpg" Stretch="Fill" VerticalAlignment="Bottom"/>
+                    <Image HorizontalAlignment="Left" Margin="45,218,0,175" Source="images/12.jpg" Stretch="Fill" Width="134"/>
+                    <TextBlock Height="134" HorizontalAlignment="Left" Margin="32,203,0,0" Name="textBlock1" Text="                                                                                                                          can i find some good coffee shop here? " VerticalAlignment="Top" Width="153" Tap="TextBlock_Tap" Visibility="Visible" />
+                    <TextBlock Height="128" HorizontalAlignment="Left" Margin="239,205,0,0" Name="textBlock2" Text="                                                                                                                              which is the best hotel to stay?" VerticalAlignment="Top" Width="152" Tap="TextBlock_Tap" Visibility="Visible" />
+                    <TextBlock Height="126" HorizontalAlignment="Left" Margin="136,331,0,0" Name="textBlock3" Text="                                                                                                                                please tell me some good schools out here" VerticalAlignment="Top" Width="158" Tap="TextBlock_Tap" Visibility="Visible" />
+                    <TextBlock Height="175" HorizontalAlignment="Left" Margin="247,33,0,0" Name="textBlock9" Text="                                                                                                                              Can you suggest me a good restraunt" VerticalAlignment="Top" Width="141" Tap="TextBlock_Tap" Visibility="Visible" />
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="pictures2">
+                <Grid>
+                    <Image Margin="35,56,0,0" Source="Images/8.jpg" Stretch="Fill" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="125"/>
+                    <Image HorizontalAlignment="Right" Margin="0,57,44,0" Source="Images/9.jpg" Stretch="Fill" Width="130" Height="106" VerticalAlignment="Top"/>
+                    <Image Height="104" Margin="140,0,148,64" Source="Images/10.jpg" Stretch="Fill" VerticalAlignment="Bottom" Width="132" />
+                    <Image Margin="29,196,0,202" Source="images/11.jpg" Stretch="Fill" HorizontalAlignment="Left" Width="134" Height="100" />
+                    <Image Margin="0,194,46,202" Source="images/4.jpg" Stretch="Fill" HorizontalAlignment="Right" Width="128" Height="102" />
+                    <TextBlock Height="136" HorizontalAlignment="Left" Margin="17,31,0,0" Name="textBlock4" Text="                                                                                                                  how far is the nearest metro station from here?" VerticalAlignment="Top" Width="161" Tap="TextBlock_Tap" Visibility="Visible" />
+                    <TextBlock Height="140" HorizontalAlignment="Left" Margin="227,35,0,0" Name="textBlock5" Text="                                                                                                                                 where is the bus stop" VerticalAlignment="Top" Width="166" Tap="TextBlock_Tap" Visibility="Visible" />
+                    <TextBlock Height="127" HorizontalAlignment="Left" Margin="15,177,0,0" Name="textBlock6" Text="                                                                                                                                where can i found a mobile recharge shop" VerticalAlignment="Top" Width="176" Tap="TextBlock_Tap" Visibility="Visible" />
+                    <TextBlock Height="123" HorizontalAlignment="Left" Margin="227,178,0,0" Name="textBlock7" Text="                                                                                                                        can you please tell me where is the washrum?" VerticalAlignment="Top" Width="177" Tap="TextBlock_Tap" Visibility="Visible" />
+                    <TextBlock Height="127" HorizontalAlignment="Left" Margin="125,320,0,0" Name="textBlock8" Text="                                                                                                           where is the nearest police station?" VerticalAlignment="Top" Width="153"   Tap="TextBlock_Tap" Visibility="Visible" />
+                </Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panorama-based applications should not show an ApplicationBar-->
+
+</phone:PhoneApplicationPage>

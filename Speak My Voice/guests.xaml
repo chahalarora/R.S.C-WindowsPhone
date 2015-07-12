@@ -1,0 +1,60 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="SampleVoiceApp.guests"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="guests" Background="White" Foreground="Black">
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="sentences 1" FontSize="24">
+                <Grid>
+                    <StackPanel Margin="0,0,5,0" Width="415">
+                        <TextBlock Height="50" HorizontalAlignment="Left" Name="textBlock1" Text="Come on in!" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="362" FontSize="24" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock2" Text="Good to see you" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="424" FontSize="24" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock3" Text="Hi,It's good to see you!" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="269" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock4" Text="Please take your shoes off." VerticalAlignment="Top" Tap="textBlock1_Tap" />
+                        <TextBlock Height="50" HorizontalAlignment="Left" Name="textBlock5" Text="Can I take your coat" VerticalAlignment="Top" Tap="textBlock1_Tap" />
+                        <TextBlock Height="50" HorizontalAlignment="Left" Name="textBlock6" Text="Sorry we are late" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="290" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock7" Text="Did you have a good journey" VerticalAlignment="Top" Tap="textBlock1_Tap" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock8" Text="I will show you your room" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="330" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock9" Text="Make yourself home" VerticalAlignment="Top" Tap="textBlock1_Tap" FontSize="24" Width="276" />
+                    </StackPanel>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="sentences 2" FontSize="24">
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock13" Text="Have a seat" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="226" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock11" Text="Can i get you anything to drink" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="356" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock12" Text="Would you like tea or coffee " VerticalAlignment="Top" Tap="textBlock1_Tap" />
+                        
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock14" Text="Do you mind if i smoke here" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="344" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock15" Text="Are you ready now to eat" VerticalAlignment="Top" Tap="textBlock1_Tap" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock16" Text="Your taxi here " VerticalAlignment="Top" Tap="textBlock1_Tap" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock17" Text="Thanks for coming" VerticalAlignment="Top" Tap="textBlock1_Tap" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock18" Text="Have a safe journey" VerticalAlignment="Top" Tap="textBlock1_Tap" />
+                        <TextBlock Height="50" HorizontalAlignment="Left"  Name="textBlock19" Text="Thanks for lovely evening" VerticalAlignment="Top" Tap="textBlock1_Tap" Width="313" />
+                    </StackPanel>
+                </Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panorama-based applications should not show an ApplicationBar-->
+
+</phone:PhoneApplicationPage>
